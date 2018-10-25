@@ -1,0 +1,167 @@
+// .ros- - prefix for typography
+
+.ros-body-1,
+.ros-typography p{
+	font-size: 15px;
+	line-height: 24px;
+	margin: 0 0 16px;
+	font-weight: 400;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+}
+
+.ros-note{
+	font-size: 13px;
+	line-height: 18px;
+	font-style: italic;
+	font-family: $second-font;
+}
+
+.ros-h1,
+.ros-h2,
+.ros-typography h1,
+.ros-typography h2{
+	font-size: 32px;
+	line-height: 40px;
+	font-weight: bold;
+	margin: 0 0 45px;
+	color: $text-dark;
+}
+
+.ros-h2,
+.ros-typography h2{
+	margin: 0 0 20px;
+}
+
+.ros-h3,
+.ros-typography h3{
+	color: $text-dark;
+	font-size: 22px;
+	line-height: 26px;
+	margin: 0 0 24px;
+	font-weight: bold;
+}
+
+.ros-h4,
+.ros-typography h4{
+	color: $text-dark;
+	font-size: 20px;
+	line-height: 26px;
+	margin: 0 0 15px;
+	font-weight: 400;
+}
+
+.ros-ol,
+.ros-typography ol{
+	list-style: none;
+	counter-reset: digits;
+
+	&:last-child{
+		margin-bottom: -44px;
+	}
+
+	li{
+		counter-increment: digits;
+		position: relative;
+		display: flex;
+		align-items: center;
+		margin-bottom: 44px;
+
+		&:before{
+			content: counter(digits);
+			display: block;
+			width: 48px;
+			flex: none;
+			margin-right: 12px;
+			text-align: center;
+			font-size: 60px;
+			line-height: 44px;
+			color: $primary;
+			font-weight: bold;
+		}
+	}
+
+	&.half-digits{
+		li{
+			min-height: 62px;
+
+			&:after{
+				content: '';
+				display: block;
+				width: 14px;
+				height: 62px;
+				background: $body-bg;
+				border-left: 2px solid #d6def2;
+				position: absolute;
+				left: 36px;
+				top: calc(50% - 30px);
+			}
+		}
+
+		&.white-bg{
+			li:after{
+				background: #fff;
+			}
+		}
+	}
+
+	&.two-columns{
+		columns: 2;
+	}
+}
+
+.ros-ul,
+.ros-typography ul{
+	list-style: none;
+
+	&:last-child{
+		margin-bottom: -44px;
+	}
+
+	li{
+		position: relative;
+		display: flex;
+		align-items: center;
+		margin-bottom: 44px;
+
+		&:before{
+			content: '';
+			display: block;
+			width: 52px;
+			height: 52px;
+			flex: none;
+			margin-left: 3px;
+			background: url(../img/icons/marker.png) no-repeat center center;
+		}
+	}
+
+	&.half-markers{
+		li{
+			min-height: 62px;
+
+			&:after{
+				content: '';
+				display: block;
+				width: 20px;
+				height: 62px;
+				background: $body-bg;
+				border-left: 2px solid #d6def2;
+				position: absolute;
+				left: 33px;
+				top: calc(50% - 30px);
+			}
+		}
+
+		&.white-bg{
+			li:after{
+				background: #fff;
+			}
+		}
+	}
+
+	&.two-columns{
+		columns: 2;
+	}
+}

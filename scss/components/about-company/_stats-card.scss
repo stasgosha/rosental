@@ -1,0 +1,39 @@
+.stats-card{
+	position: relative;
+	padding: 22px 30px 22px 40px;
+	border-right: 3px solid #edf1fb;
+	border-bottom: 3px solid #edf1fb;
+
+	.stats-bg{
+		position: absolute;
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.card-content{
+		text-align: center;
+
+		.stats-value{
+			font-size: 18px;
+			line-height: 34px;
+			color: $primary;
+			font-weight: bold;
+			margin-bottom: 5px;
+			display: inline-flex;
+			align-items: baseline;
+
+			> span{
+				font-size: 32px;
+
+				&:first-child{
+					margin-right: 6px;
+				}
+
+				&:last-child{
+					margin-left: 6px;
+				}
+			}
+		}
+	}
+}

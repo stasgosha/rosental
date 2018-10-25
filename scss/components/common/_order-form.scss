@@ -1,0 +1,22 @@
+.order-form{
+	// border-radius: ;
+	background: #fff;
+	padding: 22px 40px;
+	box-shadow: $shadow;
+	height: 86px;
+	border-radius: 43px;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto 64px;
+	display: flex;
+	align-items: center;
+
+	.form-row{
+		margin-right: 24px;
+		flex: auto;
+
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+}

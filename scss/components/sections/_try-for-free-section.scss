@@ -1,0 +1,56 @@
+.try-for-free-section{
+	padding: 44px 0;
+	background: url(../img/backgrounds/triangles-bg.png) repeat-x center center;
+	background-color: $darkblue;
+}
+
+.try-for-free-section-inner{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	.tfr-text{
+		flex: none;
+		font-size: 32px;
+		line-height: 48px;
+		color: #fff;
+		font-weight: bold;
+
+		span{
+			text-transform: uppercase;
+			font-size: 48px;
+			display: block;
+		}
+	}
+
+	.tfr-phone{
+		display: flex;
+		align-items: center;
+		color: #fff;
+
+		.tfr-phone-icon{
+			display: block;
+			margin-right: 23px;
+		}
+
+		.tfr-phone-text{
+			a{
+				font-size: 24px;
+				line-height: 24px;
+				color: #fff;
+				font-weight: 400;
+				padding-left: 15px;
+
+				&:hover{
+					color: $primary;
+				}
+			}
+
+			p{
+				padding-left: 15px;
+				border-left: 1px solid $primary;
+				font-weight: 400;
+			}
+		}
+	}
+}

@@ -1,0 +1,58 @@
+$colors: (
+	white: #fff,
+	text: $text-color,
+	accent: $accent,
+	primary: $primary,
+	blue: $blue,
+	orange: $orange,
+	dark: $text-dark
+);
+
+@each $i in $colors{
+	$color-key: nth($i, 1);
+	$color-value: nth($i, 2);
+
+	&.color-#{$color-key}{
+		color: $color-value !important;
+	}
+}
+
+.flex-center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-right{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.odometer-formatting-mark{
+	opacity: 0;
+}
+
+.tel-link{
+	position: relative;
+
+	&:after{
+		content: '';
+		display: block;
+		width: 14px;
+		height: 14px;
+		background: url(../img/icons/phone.png) no-repeat center center;
+		position: absolute;
+		right: 0;
+		opacity: 0;
+		top: calc(50% - 7px);
+		transition: all .2s;
+	}
+
+	&:hover{
+		&:after{
+			right: -20px;
+			opacity: 1;
+		}
+	}
+}

@@ -1,0 +1,10 @@
+.cards-section{
+	padding-bottom: 85px;
+
+	.cards-bottom-line{
+		height: 2px;
+		width: calc(100% - 30px);
+		background: #eef1fb;
+		margin-top: -30px;
+	}
+}

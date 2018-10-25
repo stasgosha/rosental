@@ -1,0 +1,77 @@
+.icon{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+	&.icon-peoples{
+		width: 24px;
+		height: 24px;
+		background: url(../img/icons/peoples.png) no-repeat center center;
+	}
+
+	&.icon-logo-circle{
+		width: 24px;
+		height: 24px;
+		background: url(../img/icons/logo-circle.png) no-repeat center center;
+	}
+
+	&.icon-headphones{
+		width: 24px;
+		height: 24px;
+		background: url(../img/icons/headphones.png) no-repeat center center;
+	}
+
+	&.icon-chat-bubble{
+		width: 77px;
+		height: 77px;
+		background: url(../img/icons/chat-bubble.png) no-repeat center center;
+	}
+
+	&.icon-hand-with-phone{
+		width: 35px;
+		height: 47px;
+		background: url(../img/icons/hand-with-phone.png) no-repeat center center;
+	}
+
+	&.icon-document-check{
+		width: 16px;
+		height: 16px;
+		background: url(../img/icons/document-check.png) no-repeat center center;
+	}
+
+	&.icon-phone{
+		width: 14px;
+		height: 14px;
+		background: url(../img/icons/phone.png) no-repeat center center;
+	}
+
+	&.icon-envelope{
+		width: 14px;
+		height: 14px;
+		background: url(../img/icons/envelope.png) no-repeat center center;
+	}
+
+	&.icon-vk{
+		width: 16px;
+		height: 9px;
+		background: url(../img/icons/vk.png) no-repeat center center;
+	}
+
+	&.icon-instagram{
+		width: 16px;
+		height: 16px;
+		background: url(../img/icons/instagram.png) no-repeat center center;
+	}
+
+	&.icon-facebook{
+		width: 8px;
+		height: 14px;
+		background: url(../img/icons/facebook.png) no-repeat center center;
+	}
+
+	&.icon-youtube{
+		width: 16px;
+		height: 11px;
+		background: url(../img/icons/youtube.png) no-repeat center center;
+	}
+}

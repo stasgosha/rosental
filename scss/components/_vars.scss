@@ -1,0 +1,23 @@
+// Fonts
+$main-font: 'Formular', Arial, sans-serif;
+$second-font: Arial, sans-serif;
+
+// Colors
+$darkblue: #003399;
+$blue: #5582c8;
+$lightblue: #f5f8ff;
+$orange: #ff9b33;
+
+$shadow-color: #09266f;
+
+$text-color: #585858;
+$text-dark: #303030;
+
+$primary: $blue;
+$accent: $orange;
+
+// Params
+$body-bg: #f5f8ff; // site background
+$t: .3s; // animation duration
+$r: 5px; // default border radius
+$shadow: 1.5px 1.5px 7px rgba($shadow-color, .1); // default card shadow

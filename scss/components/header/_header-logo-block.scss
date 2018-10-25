@@ -1,0 +1,30 @@
+.header-logo-block{
+	display: flex;
+	align-items: center;
+
+	.logo{
+		margin-top: -16px;
+		cursor: pointer;
+		transition: all $t;
+		display: block;
+		width: 211px;
+
+		&:hover{
+			opacity: .8;
+		}
+
+		img{
+			display: block;
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	.logo-descr{
+		margin-left: 45px;
+		padding-left: 15px;
+		min-height: 44px;
+		border-left: 1px solid $primary;
+		max-width: 240px;
+	}
+}

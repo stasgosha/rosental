@@ -1,0 +1,38 @@
+.tabs-nav{
+	border: 1px solid rgba(#002d86, .08);
+	border-radius: $r;
+	position: relative;
+	display: inline-flex;
+	margin-bottom: 60px;
+
+	.substrate{
+		display: block;
+		background: $primary;
+		border-radius: $r;
+		height: calc(100% + 2px);
+		position: absolute;
+		top: 0;
+		left: 0;
+		transition: all .2s;
+		margin: -1px;
+		box-shadow: 3px 3px 10px rgba($darkblue, .23);
+	}
+
+	> .item{
+		font-size: 15px;
+		line-height: 22px;
+		color: $text-dark;
+		font-weight: bold;
+		text-align: center;
+		padding: 8px 30px;
+		cursor: pointer;
+		transition: all $t;
+		position: relative;
+		z-index: 2;
+
+		&.current{
+			color: #fff;
+			cursor: default;
+		}
+	}
+}

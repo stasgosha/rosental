@@ -1,0 +1,41 @@
+.form{
+	
+}
+
+.input-field,
+.textarea{
+	height: 40px;
+	font-size: 15px;
+	padding: 0 30px;
+	width: 100%;
+	outline: none !important;
+	transition: all $t;
+	border-radius: 20px;
+	color: $text-dark;
+	background: #ebeff9;
+	border: none;
+	border: 1px solid #ebeff9;
+	font-family: $main-font;
+	-webkit-appearance: none;
+	font-weight: bold;
+
+	&:focus{
+		border-color: $primary;
+		background: #fff;
+	}
+
+	&::placeholder{
+		color: rgba($text-dark, .7);
+	}
+
+	&:disabled{
+		// background: #212833;
+	}
+}
+
+// .textarea{
+// 	resize: none;
+// 	height: 40px;
+// 	padding: 9px 17px;
+// 	overflow: hidden;
+// }

@@ -1,0 +1,10 @@
+.spider-network-section{
+	padding-top: 24px;
+
+	.spider-network-map{
+		height: 410px;
+		background: url(../img/backgrounds/spider-network-map.jpg) no-repeat center center;
+		background-size: cover;
+		box-shadow: inset 0 0 15px rgba($shadow-color, .2);
+	}
+}

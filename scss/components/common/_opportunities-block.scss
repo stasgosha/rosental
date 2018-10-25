@@ -1,0 +1,20 @@
+.opportunities-block{
+	display: flex;
+
+	.block-content{
+		padding-top: 25px;
+		width: 50%;
+		padding-right: 15px;
+	}
+
+	.block-image{
+		width: 50%;
+		padding-left: 15px;
+
+		img{
+			max-width: 100%;
+			display: block;
+			height: auto;
+		}
+	}
+}
