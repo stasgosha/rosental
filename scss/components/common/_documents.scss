@@ -1,0 +1,169 @@
+.documents-row{
+	display: flex;
+	align-items: flex-start;
+	width: 100%;
+	margin-bottom: 15px;
+
+	.documents-row-description{
+		width: 350px;
+		flex: none;
+		padding-right: 30px;
+		min-height: 98px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+		color: $text-dark;
+	}
+
+	.documents-row-list{
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+
+		> .item{
+			margin-right: 15px;
+			margin-bottom: 15px;
+
+			&:last-child{
+				margin-right: 0;
+			}
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		flex-direction: column;
+
+		.documents-row-description{
+			min-height: auto;
+			padding-right: 0;
+			margin-bottom: 15px;
+			width: 100%;
+		}
+
+		.documents-row-list{
+			padding-bottom: 8px;
+			border-bottom: 1px solid #e2e6f1;
+			margin-bottom: 10px;
+			width: calc(100% + 14px);
+			margin-left: -7px;
+			margin-right: -7px;
+
+			> .item{
+				margin-right: 7px;
+				margin-left: 7px;
+
+				&:last-child{
+					margin-right: 7;
+				}
+			}
+		}
+
+		&:last-child{
+			.documents-row-list{
+				border-bottom: 0;
+			}
+		}
+	}
+}
+
+.documents-group{
+	margin-bottom: 45px;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+}
+
+.document-card{
+	display: flex;
+	border-radius: $r;
+	background: #fff;
+	box-shadow: $shadow;
+	padding: 6px;
+	position: relative;
+	overflow: hidden;
+
+	&:before{
+		content: '';
+		display: block;
+		position: absolute;
+		width: 56px;
+		height: 64px;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	&[href$=".doc"],
+	&[href$=".docx"]{
+		&:before{
+			background: url(../img/icons/doc.png) no-repeat center center;
+		}
+	}
+
+	&[href$=".pdf"]{
+		&:before{
+			background: url(../img/icons/pdf.png) no-repeat center center;
+		}
+	}
+
+	&[href$=".jpg"],
+	&[href$=".jpeg"]{
+		&:before{
+			background: url(../img/icons/jpg.png) no-repeat center center;
+		}
+	}
+
+	&[href$=".xls"],
+	&[href$=".xlsx"]{
+		&:before{
+			background: url(../img/icons/xls.png) no-repeat center center;
+		}
+	}
+
+	&[href$=".txt"]{
+		&:before{
+			background: url(../img/icons/txt.png) no-repeat center center;
+		}
+	}
+
+	.document-card-inner{
+		transform: scale(1.5);
+		opacity: 0;
+		transition: all $t;
+		border-radius: $r;
+		background: #f5f8ff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		width: 86px;
+		height: 86px;
+		position: relative;
+		z-index: 5;
+
+		i{
+			display: block;
+			margin-bottom: 8px;
+		}
+
+		span{
+			font-size: 12px;
+			line-height: 14px;
+			color: #b0b7bd;
+		}
+
+		@media screen and (max-width: 767px){
+			width: 75px;
+			height: 75px;
+		}
+	}
+
+	&:hover{
+		.document-card-inner{
+			transform: scale(1);
+			opacity: 1;
+		}
+	}
+}

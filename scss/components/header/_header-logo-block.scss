@@ -27,4 +27,19 @@
 		border-left: 1px solid $primary;
 		max-width: 240px;
 	}
+
+	@media screen and (max-width: 1199px){
+		.logo{
+			margin-top: 0;
+		}
+
+		.logo-descr{
+			display: none;
+		}
+	}
+
+	@media screen and (max-width: 575px){
+		flex-direction: column;
+		align-items: flex-start;
+	}
 }

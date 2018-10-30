@@ -19,6 +19,11 @@ body{
 a, button{
 	text-decoration: none;
 	transition: all $t;
+	outline: none;
+}
+
+a img{
+	outline: none;
 }
 
 .wrapper{
@@ -35,5 +40,76 @@ a, button{
 
 	.footer{
 		flex: none;
+	}
+
+	.post-content{
+		padding-bottom: 80px;
+	}
+}
+
+$gutter: 15px;
+@mixin col-generator ($prefix:'.col', $prop: 'flex-basis', $total-columns: 12) {
+	$col-widths: ();
+	@for $i from 1 through $total-columns {
+
+		$w: ($i / $total-columns);
+
+		@if not index($col-widths, $w) {
+			#{$prefix}-#{$i} {
+				#{$prop}: $w * 100%;
+				@if($prop == 'flex-basis') {
+					flex: none;
+					width: $w * 100%;
+				}
+			}
+
+			$col-widths: append($col-widths, $w, comma);
+		}
+	}
+}
+
+.flex-container{
+	display: flex;
+	width: 100%;
+
+	.flex-row{
+		width: calc(100% + #{$gutter} * 2);
+		display: flex;
+		flex-flow: row wrap;
+		margin-left: -$gutter;
+		margin-right: -$gutter;
+		box-sizing: border-box;
+
+		//IE fix
+		@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+			flex-flow: row nowrap;
+		}
+	}
+
+	.col{
+		padding: 0 15px;
+		flex-basis: 100%;
+		width: 100%;
+		flex: none;
+		position: relative;
+		box-sizing: border-box;
+	}
+
+	@include col-generator();
+
+	@media screen and (min-width: 576px){
+		@include col-generator('.col-sm');
+	}
+
+	@media screen and (min-width: 768px){
+		@include col-generator('.col-md');
+	}
+
+	@media screen and (min-width: 992px){
+		@include col-generator('.col-lg');
+	}
+
+	@media screen and (min-width: 1200px){
+		@include col-generator('.col-xl');
 	}
 }

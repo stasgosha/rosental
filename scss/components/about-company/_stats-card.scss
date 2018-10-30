@@ -3,6 +3,7 @@
 	padding: 22px 30px 22px 40px;
 	border-right: 3px solid #edf1fb;
 	border-bottom: 3px solid #edf1fb;
+	overflow: hidden;
 
 	.stats-bg{
 		position: absolute;
@@ -35,5 +36,9 @@
 				}
 			}
 		}
+	}
+
+	@media screen and (max-width: 767px){
+		padding: 22px 25px 22px 35px;
 	}
 }

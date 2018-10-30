@@ -50,10 +50,11 @@ $sides: (
 }
 
 @include gutters-generator('.');
+@include gutters-generator('.xs-');
 
-@media screen and (max-width: 575px){
-	@include gutters-generator('.xs-');
-}
+// @media screen and (min-width: 575px){
+	
+// }
 
 @media screen and (min-width: 576px){
 	@include gutters-generator('.sm-');

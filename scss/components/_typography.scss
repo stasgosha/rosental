@@ -28,9 +28,15 @@
 	font-weight: bold;
 	margin: 0 0 45px;
 	color: $text-dark;
+
+	@media screen and (max-width: 575px){
+		font-size: 24px;
+		line-height: 34px;
+	}
 }
 
 .ros-h2,
+.ros-typography h1,
 .ros-typography h2{
 	margin: 0 0 20px;
 }
@@ -109,6 +115,10 @@
 
 	&.two-columns{
 		columns: 2;
+
+		@media screen and (max-width: 575px){
+			columns: 1;
+		}
 	}
 }
 
@@ -163,5 +173,33 @@
 
 	&.two-columns{
 		columns: 2;
+
+		@media screen and (max-width: 575px){
+			columns: 1;
+		}
+	}
+}
+
+.ros-typography{
+	.tel-link{
+		font-size: 24px;
+		line-height: 24px;
+		margin-bottom: 5px;
+		font-weight: 400;
+		color: $text-dark;
+		text-decoration: none;
+
+		&:hover{
+			color: $primary;
+		}
+	}
+
+	a{
+		color: $text-dark;
+		text-decoration: underline;
+
+		&:hover{
+			text-decoration: none;
+		}
 	}
 }

@@ -1,0 +1,20 @@
+.requisites-section{
+	padding-bottom: 75px;
+	position: relative;
+
+	&:after{
+		content: '';
+		display: block;
+		background: url(../img/backgrounds/requisites-section-bg.png) no-repeat center center;
+		width: 1131px;
+		height: 438px;
+		position: absolute;
+		bottom: -50px;
+		left: calc(50% - 231px);
+		z-index: -1;
+
+		@media screen and (max-width: 767px){
+			display: none;
+		}
+	}
+}

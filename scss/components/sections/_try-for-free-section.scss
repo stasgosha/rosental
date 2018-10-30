@@ -1,6 +1,6 @@
 .try-for-free-section{
 	padding: 44px 0;
-	background: url(../img/backgrounds/triangles-bg.png) repeat-x center center;
+	background: url(../img/backgrounds/triangles-bg.png) repeat-x center bottom;
 	background-color: $darkblue;
 }
 
@@ -50,6 +50,44 @@
 				padding-left: 15px;
 				border-left: 1px solid $primary;
 				font-weight: 400;
+			}
+		}
+	}
+
+	@media screen and (max-width: 1199px){
+		.tfr-text{
+			span{
+				font-size: 38px;
+			}
+		}
+	}
+
+	@media screen and (max-width: 991px){
+		flex-direction: column;
+
+		.tfr-text{
+			text-align: center;
+		}
+
+		.tfr-phone{
+			margin: 30px 0 45px;
+			flex-direction: column;
+			text-align: center;
+
+			.tfr-phone-icon{
+				margin-right: 0;
+				margin-bottom: 20px;
+			}
+
+			.tfr-phone-text{
+				text-align: center;
+
+				a{}
+
+				p{
+					border-left: 0;
+					padding-left: 0;
+				}
 			}
 		}
 	}

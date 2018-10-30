@@ -1,0 +1,41 @@
+.breadcrumbs-section{
+	padding: 20px 0 45px;
+}
+
+.breadcrumbs{
+	display: flex;
+	list-style: none;
+
+	li{
+		font-size: 12px;
+		line-height: 22px;
+		color: $text-light;
+		display: flex;
+		align-items: center;
+
+		&:after{
+			content: '';
+			display: block;
+			width: 14px;
+			height: 5px;
+			background: url(../img/icons/breadcrumbs-arrow.png) no-repeat center center;
+			margin: 0 12px;
+			margin-top: 1px;
+		}
+
+		&:last-child{
+			&:after{
+				display: none;
+			}
+		}
+
+		a{
+			color: $text-dark;
+			text-decoration: underline;
+
+			&:hover{
+				text-decoration: none;
+			}
+		}
+	}
+}

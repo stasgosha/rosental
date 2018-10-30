@@ -1,0 +1,25 @@
+.clients-card{
+	width: 100%;
+	background: #fff;
+	border-radius: $r;
+	box-shadow: $shadow;
+	padding: 15px;
+	margin-bottom: 30px;
+
+	.card-image{
+		width: 100%;
+
+		img{
+			display: block;
+			max-width: 100%;
+		}
+	}
+
+	.card-content{
+		padding: 20px 0 5px;
+
+		p{
+			margin: 0;
+		}
+	}
+}

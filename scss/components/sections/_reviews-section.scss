@@ -3,38 +3,17 @@
 }
 
 .reviews-slider{
+	width: calc(100% + 30px);
+	margin-left: -15px;
+	margin-right: -15px;
+
 	.slide{
 		padding: 0 15px 15px;
-		outline: none !important;
 	}
 
-	.slick-arrow{
-		&:before{
-			content: '';
-			display: block;
-			opacity: 1;
-			width: 18px;
-			height: 32px;
-			background: url(../img/icons/slider-arrows.png) no-repeat;
-			transition: all $t;
-		}
-
-		&:hover{
-			&:before{
-				opacity: .8;
-			}
-		}
-
-		&.slick-prev{
-			&:before{
-				background-position: left center;
-			}
-		}
-
-		&.slick-next{
-			&:before{
-				background-position: right center;
-			}
+	@media screen and (max-width: 767px){
+		.slick-dots{
+			bottom: 35px;
 		}
 	}
 }

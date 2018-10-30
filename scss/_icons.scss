@@ -45,6 +45,12 @@
 		background: url(../img/icons/phone.png) no-repeat center center;
 	}
 
+	&.icon-phone-big{
+		width: 24px;
+		height: 24px;
+		background: url(../img/icons/phone-big.png) no-repeat center center;
+	}
+
 	&.icon-envelope{
 		width: 14px;
 		height: 14px;
@@ -73,5 +79,11 @@
 		width: 16px;
 		height: 11px;
 		background: url(../img/icons/youtube.png) no-repeat center center;
+	}
+
+	&.icon-download{
+		width: 28px;
+		height: 32px;
+		background: url(../img/icons/download.png) no-repeat center center;
 	}
 }

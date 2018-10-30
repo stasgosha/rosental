@@ -36,9 +36,11 @@
 			}
 		}
 
-		&.current-menu-item{
+		&.current-menu-item,
+		&.current-menu-parent{
 			> a{
 				color: #fff;
+				font-weight: bold;
 
 				&:before{
 					border-left-color: #fff;

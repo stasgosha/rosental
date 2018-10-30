@@ -7,4 +7,35 @@
 		background: #eef1fb;
 		margin-top: -30px;
 	}
+
+	@media screen and (max-width: 991px){
+		.cards-bottom-line{
+			display: none;
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		padding-bottom: 65px;
+	}
+}
+
+
+.products-slider{
+	width: calc(100% + 30px);
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-bottom: -15px;
+
+	.slide{
+		padding: 0 15px 15px;
+		height: 100%;
+		position: relative;
+		outline: none;
+	}
+
+	@media screen and (max-width: 767px){
+		.slick-dots{
+			bottom: 35px;
+		}
+	}
 }

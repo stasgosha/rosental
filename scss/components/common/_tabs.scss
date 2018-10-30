@@ -1,22 +1,10 @@
 .tabs-nav{
-	border: 1px solid rgba(#002d86, .08);
+	border: 1px solid #e2e8f6;
 	border-radius: $r;
 	position: relative;
 	display: inline-flex;
 	margin-bottom: 60px;
-
-	.substrate{
-		display: block;
-		background: $primary;
-		border-radius: $r;
-		height: calc(100% + 2px);
-		position: absolute;
-		top: 0;
-		left: 0;
-		transition: all .2s;
-		margin: -1px;
-		box-shadow: 3px 3px 10px rgba($darkblue, .23);
-	}
+	overflow: hidden;
 
 	> .item{
 		font-size: 15px;
@@ -29,10 +17,36 @@
 		transition: all $t;
 		position: relative;
 		z-index: 2;
+		border-right: 1px solid #e2e8f6;
+		margin-right: -1px;
+
+		&:last-child{
+			border-right: 0;
+			margin-right: 0;
+		}
 
 		&.current{
 			color: #fff;
 			cursor: default;
+			background: $primary;
+			box-shadow: 3px 3px 10px rgba($darkblue, .23);
+			border-color: transparent !important;
+		}
+	}
+
+	@media screen and (max-width: 575px){
+		&.flex-column{
+			> .item{
+				border-right: 0;
+				margin-right: 0;
+				border-bottom: 1px solid #e2e8f6;
+				margin-bottom: -1px;
+
+				&:last-child{
+					border-bottom: 0;
+					margin-bottom: 0;
+				}
+			}
 		}
 	}
 }

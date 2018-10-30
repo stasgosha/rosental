@@ -1,0 +1,47 @@
+.bordered-image{
+	position: relative;
+	max-width: 470px;
+	width: 100%;
+
+	&:before{
+		content: '';
+		display: block;
+		width: calc(100% - 15px - 6px);
+		height: calc(100% - 6px);
+		border-bottom: 4px solid #ffce9c;
+		border-left: 4px solid #ffce9c;
+		position: absolute;
+		left: -8px;
+		bottom: -8px;
+	}
+
+	img{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+}
+
+.post-content{
+	.bordered-image{
+		&.alignleft{
+			float: left;
+			margin-right: 40px;
+			margin-bottom: 25px;
+		}
+
+		&.alignright{
+			float: right;
+			margin-left: 40px;
+			margin-bottom: 25px;
+		}
+
+		@media screen and (max-width: 991px){
+			&.md-fullwidth{
+				display: block;
+				margin: 0 auto 25px;
+				float: none;
+			}
+		}
+	}
+}

@@ -17,6 +17,10 @@ $colors: (
 	}
 }
 
+.push{
+	position: relative;
+}
+
 .flex-center{
 	display: flex;
 	align-items: center;
@@ -54,5 +58,17 @@ $colors: (
 			right: -20px;
 			opacity: 1;
 		}
+	}
+}
+
+.map-block{
+	padding: 5px;
+	border-radius: $r;
+	background: #fff;
+	box-shadow: $shadow;
+	width: 100%;
+
+	iframe{
+		display: block;
 	}
 }

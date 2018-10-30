@@ -1,36 +1,37 @@
 .about-company-block{
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	margin-bottom: 55px;
 
 	.block-image{
-		padding-left: 15px;
 		width: 40.6%;
 		flex: none;
-		position: relative;
-
-		&:before{
-			content: '';
-			display: block;
-			width: calc(100% - 15px - 6px);
-			height: calc(100% - 6px);
-			border-bottom: 4px solid #ffce9c;
-			border-left: 4px solid #ffce9c;
-			position: absolute;
-			left: 7px;
-			bottom: -8px;
-		}
-
-		img{
-			display: block;
-			width: 100%;
-			height: auto;
-		}
+		min-width: 410px;
 	}
 
 	.block-content{
 		flex: auto;
 		padding-left: 45px;
 		padding-right: 20px;
+	}
+
+	@media screen and (max-width: 991px){
+		flex-direction: column;
+
+		.block-image{
+			width: 100%;
+			min-width: 0;
+			padding-left: 0;
+
+			&:before{
+				left: -8px;
+			}
+		}
+
+		.block-content{
+			padding-left: 0;
+			padding-right: 0;
+			padding-top: 30px;
+		}
 	}
 }
