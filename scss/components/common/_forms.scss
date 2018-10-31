@@ -25,7 +25,7 @@
 	}
 
 	&::placeholder{
-		color: rgba($text-dark, .7);
+		color: $text-dark;
 	}
 
 	&:disabled{
@@ -33,9 +33,14 @@
 	}
 }
 
-// .textarea{
-// 	resize: none;
-// 	height: 40px;
-// 	padding: 9px 17px;
-// 	overflow: hidden;
-// }
+.textarea{
+	padding: 9px 30px;
+	resize: none;
+	height: 170px;
+}
+
+.request-form{
+	.form-row{
+		margin-bottom: 25px;
+	}
+}

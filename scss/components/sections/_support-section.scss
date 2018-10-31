@@ -1,0 +1,25 @@
+.support-section{
+	padding: 60px 0;
+	position: relative;
+	background: #fff;
+
+	.support-section-inner{
+		position: relative;
+		z-index: 10;
+		text-align: center;
+
+		.pre-form-text{
+			max-width: 870px;
+			margin: 0 auto 40px;
+		}
+	}
+}
+
+.support-form{
+	max-width: 770px;
+	margin: 0 auto;
+
+	.form-row{
+		margin-bottom: 25px;
+	}
+}

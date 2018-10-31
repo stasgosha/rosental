@@ -4,6 +4,28 @@
 @import "components/typography";
 @import "components/assist";
 
+// Header
+@import "components/header/header";
+@import "components/header/header-logo-block";
+@import "components/header/header-phone-block";
+@import "components/header/top-nav";
+
+// Sections
+@import "components/sections/features-section";
+@import "components/sections/cards-section";
+@import "components/sections/white-section";
+@import "components/sections/opportunities-section";
+@import "components/sections/try-for-free-section";
+@import "components/sections/reviews-section";
+@import "components/sections/spider-network-section";
+@import "components/sections/why-we-section";
+@import "components/sections/order-demo-section";
+@import "components/sections/licensies-section";
+@import "components/sections/requisites-section";
+@import "components/sections/page-404-section";
+@import "components/sections/consultation-section";
+@import "components/sections/support-section";
+
 // Common
 @import "icons";
 @import "components/common/gutters";
@@ -20,30 +42,16 @@
 @import "components/common/parallax-layers";
 @import "components/common/documents";
 @import "components/common/accordion";
+@import "components/common/file-link";
 
-// Header
-@import "components/header/header";
-@import "components/header/header-logo-block";
-@import "components/header/header-phone-block";
-@import "components/header/top-nav";
+// Products Pages
+@import "components/common/clients-slider";
+@import "components/common/product-description-block";
+@import "components/common/products-comparison";
 
 // Footer
 @import "components/footer/footer";
 @import "components/footer/footer-nav";
-
-// Sections
-@import "components/sections/features-section";
-@import "components/sections/cards-section";
-@import "components/sections/white-section";
-@import "components/sections/opportunities-section";
-@import "components/sections/try-for-free-section";
-@import "components/sections/reviews-section";
-@import "components/sections/spider-network-section";
-@import "components/sections/why-we-section";
-@import "components/sections/order-demo-section";
-@import "components/sections/licensies-section";
-@import "components/sections/requisites-section";
-@import "components/sections/page-404-section";
 
 // Features Card
 @import "components/common/features-card";
@@ -52,7 +60,7 @@
 @import "components/common/white-card";
 
 // About Company Section
-@import "components/about-company/about-company-block";
+@import "components/about-company/about-block";
 @import "components/about-company/stats-card";
 
 // Opportunities

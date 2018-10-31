@@ -15,7 +15,7 @@
 	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css">
 	<link rel="stylesheet" href="css/odometer-theme-minimal.css">
-	<link rel="stylesheet" href="css/main.css?v=<?= rand() ?>"><!-- TODO: remove rand part -->
+	<link rel="stylesheet" href="css/main.css">
 	<?php //wp_head(); ?>
 </head>
 <body>
@@ -47,7 +47,7 @@
 							</div>
 							<div class="header-block right d-none d-sm-flex">
 								<div class="flex-container align-center">
-									<button class="btn margin-bottom-tiny lg-margin-bottom-no lg-margin-right-tiny" data-toggle="modal" data-target="#orderCall">Заказать звонок</button>
+									<button class="btn margin-bottom-tiny lg-margin-bottom-no lg-margin-right-tiny" data-toggle="modal" data-target="#modal-request">Заказать звонок</button>
 									<a href="mailto:uk@rozentalgroup.ru" target="_blank" class="btn btn-light color-white">Написать письмо</a>
 								</div>
 							</div>
@@ -67,19 +67,19 @@
 						<ul class="top-nav d-none d-md-flex">
 							<li><a href="about.php">ГК «Розенталь Групп»</a></li>
 							<li>
-								<a href="#">Продукты и услуги для УК</a>
+								<a href="products.php">Продукты и услуги для УК</a>
 								<ul class="submenu">
-									<li><a href="#">Электронный диспетчер</a></li>
-									<li><a href="#">Мобильное приложение</a></li>
-									<li><a href="#">Сайт для УК</a></li>
+									<li><a href="dispatcher.php">Электронный диспетчер</a></li>
+									<li><a href="mobile-app.php">Мобильное приложение</a></li>
+									<li><a href="site.php">Сайт для УК</a></li>
+									<li><a href="site-2.php">Сайт для УК - 2</a></li>
 								</ul>
 							</li>
 							<li>
-								<a href="#">Техническая поддержка</a>
+								<a href="support.php">Техническая поддержка</a>
 								<ul class="submenu">
 									<li><a href="reviews.php">Отзывы</a></li>
 									<li><a href="documents.php">Документы</a></li>
-									<li><a href="#">Сайт для УК</a></li>
 								</ul>
 							</li>
 							<li><a href="faq.php">Вопросы и ответы</a></li>

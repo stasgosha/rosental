@@ -4,7 +4,6 @@
 	position: relative;
 	display: inline-flex;
 	margin-bottom: 60px;
-	overflow: hidden;
 
 	> .item{
 		font-size: 15px;
@@ -20,9 +19,14 @@
 		border-right: 1px solid #e2e8f6;
 		margin-right: -1px;
 
+		&:first-child{
+			border-radius: $r 0 0 $r;
+		}
+
 		&:last-child{
 			border-right: 0;
 			margin-right: 0;
+			border-radius: 0 $r $r 0;
 		}
 
 		&.current{

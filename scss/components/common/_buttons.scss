@@ -74,10 +74,22 @@
 			background: $primary;
 			border-color: $primary;
 		}
+
+		&.btn-gray{
+			border-color: #e2e8f6;
+			color: $text-dark;
+			box-shadow: none;
+
+			&:hover{
+				background: $primary;
+				border-color: $primary;
+				color: #fff;
+			}
+		}
 	}
 
 	$btn_colors: (
-		accent: $accent,
+		accent: $accent
 	);
 
 	@each $i in $btn_colors{

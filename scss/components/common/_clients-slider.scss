@@ -1,0 +1,25 @@
+.clients-slider{
+	width: calc(100% + 30px);
+	margin-left: -15px;
+	margin-right: -15px;
+
+	.slide{
+		padding: 0 15px 15px;
+	}
+
+	.slick-dots{
+		bottom: 10px;
+	}
+
+	@media screen and (max-width: 575px){
+		.slick-dots{
+			bottom: 65px;
+		}
+
+		.slide{
+			.clients-card{
+				padding-bottom: 55px;
+			}
+		}
+	}
+}

@@ -17,14 +17,14 @@
 						<!-- ↓↓↓ WP loop goes here ↓↓↓ -->
 						<?php for ($i=0; $i < 9; $i++): ?>
 							<div class="col-sm-6 col-lg-4">
-								<div class="clients-card">
+								<a href="#" class="clients-card add-tilt">
 									<div class="card-image">
 										<img src="http://placeimg.com/515/326/arch?v=<?= $i ?>" alt="">
 									</div>
 									<div class="card-content">
 										<p class="ros-body-1">Москва, ул. Академика Королева, 12</p>
 									</div>
-								</div>
+								</a>
 							</div>
 						<?php endfor; ?>
 					</div>

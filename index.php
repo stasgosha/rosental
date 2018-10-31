@@ -3,55 +3,47 @@
 	<div class="page-content">
 		<div class="section features-section">
 			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<h1 class="ros-h1 text-center">Автоматизация ЖКХ</h1>
+				<h1 class="ros-h1 text-center">Автоматизация ЖКХ</h1>
+				<div class="features-slider">
+					<div class="slide">
+						<div class="features-card">
+							<div class="card-image add-tilt">
+								<img src="img/features/building.png" alt="">
+								<div class="card-image-icon">
+									<i class="icon icon-peoples"></i>
+								</div>
+							</div>
+							<div class="card-content">
+								<h5 class="ros-h3">Жители</h5>
+								<p class="ros-body-1">В истории науки встречались ситуации, когда движение небесных тел не подчинялось законам </p>
+							</div>
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-12">
-						<div class="features-slider">
-							<div class="slide">
-								<div class="features-card">
-									<div class="card-image add-tilt">
-										<img src="img/features/building.png" alt="">
-										<div class="card-image-icon">
-											<i class="icon icon-peoples"></i>
-										</div>
-									</div>
-									<div class="card-content">
-										<h5 class="ros-h3">Жители</h5>
-										<p class="ros-body-1">В истории науки встречались ситуации, когда движение небесных тел не подчинялось законам </p>
-									</div>
+					<div class="slide">
+						<div class="features-card">
+							<div class="card-image add-tilt">
+								<img src="img/features/spider.png" alt="">
+								<div class="card-image-icon">
+									<i class="icon icon-logo-circle"></i>
 								</div>
 							</div>
-							<div class="slide">
-								<div class="features-card">
-									<div class="card-image add-tilt">
-										<img src="img/features/spider.png" alt="">
-										<div class="card-image-icon">
-											<i class="icon icon-logo-circle"></i>
-										</div>
-									</div>
-									<div class="card-content">
-										<h5 class="ros-h3">Система «Паук»</h5>
-										<p class="ros-body-1">В истории науки встречались ситуации, когда движение небесных тел не подчинялось законам </p>
-									</div>
+							<div class="card-content">
+								<h5 class="ros-h3">Система «Паук»</h5>
+								<p class="ros-body-1">В истории науки встречались ситуации, когда движение небесных тел не подчинялось законам </p>
+							</div>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="features-card">
+							<div class="card-image add-tilt">
+								<img src="img/features/person.png" alt="">
+								<div class="card-image-icon">
+									<i class="icon icon-headphones"></i>
 								</div>
 							</div>
-							<div class="slide">
-								<div class="features-card">
-									<div class="card-image add-tilt">
-										<img src="img/features/person.png" alt="">
-										<div class="card-image-icon">
-											<i class="icon icon-headphones"></i>
-										</div>
-									</div>
-									<div class="card-content">
-										<h5 class="ros-h3">Управляющая компания</h5>
-										<p class="ros-body-1">В истории науки встречались ситуации, когда движение небесных тел не подчинялось законам</p>
-									</div>
-								</div>
+							<div class="card-content">
+								<h5 class="ros-h3">Управляющая компания</h5>
+								<p class="ros-body-1">В истории науки встречались ситуации, когда движение небесных тел не подчинялось законам</p>
 							</div>
 						</div>
 					</div>
@@ -60,50 +52,46 @@
 		</div>
 		<div class="section cards-section">
 			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<div class="products-slider">
-							<div class="slide">
-								<div class="white-card">
-									<div class="card-image">
-										<img src="img/cards/headphones.png" alt="">
-									</div>
-									<div class="card-content">
-										<h5 class="card-caption ros-h3">Электронный <br>диспетчер</h5>
-										<p class="ros-body-1">В истории науки встречались ситуации, когда движение небесных тел не подчинялось законам</p>
-									</div>
-									<div class="card-footer">
-										<a href="#" class="btn">Бесплатная демо версия</a>
-									</div>
-								</div>
+				<div class="products-slider">
+					<div class="slide">
+						<div class="white-card">
+							<div class="card-image">
+								<img src="img/cards/headphones.png" alt="">
 							</div>
-							<div class="slide">
-								<div class="white-card">
-									<div class="card-image">
-										<img src="img/cards/mobile-phones.png" alt="">
-									</div>
-									<div class="card-content">
-										<h5 class="ros-h3">Мобильное <br>приложение</h5>
-										<p class="ros-body-1">В истории науки встречались ситуации, когда движение небесных тел не подчинялось законам</p>
-									</div>
-									<div class="card-footer">
-										<a href="#" class="btn">Скачать</a>
-									</div>
-								</div>
+							<div class="card-content">
+								<h5 class="card-caption ros-h3">Электронный <br>диспетчер</h5>
+								<p class="ros-body-1">В истории науки встречались ситуации, когда движение небесных тел не подчинялось законам</p>
 							</div>
-							<div class="slide">
-								<div class="white-card">
-									<div class="card-image">
-										<img src="img/cards/imac.png" alt="">
-									</div>
-									<div class="card-content">
-										<h5 class="ros-h3">Сайт управляющией <br>компании</h5>
-										<p class="ros-body-1">В истории науки встречались ситуации, когда движение небесных тел не подчинялось законам</p>
-									</div>
-									<div class="card-footer">
-										<a href="#" class="btn">Подробнее</a>
-									</div>
-								</div>
+							<div class="card-footer">
+								<a href="#" class="btn">Бесплатная демо версия</a>
+							</div>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="white-card">
+							<div class="card-image">
+								<img src="img/cards/mobile-phones.png" alt="">
+							</div>
+							<div class="card-content">
+								<h5 class="ros-h3">Мобильное <br>приложение</h5>
+								<p class="ros-body-1">В истории науки встречались ситуации, когда движение небесных тел не подчинялось законам</p>
+							</div>
+							<div class="card-footer">
+								<a href="#" class="btn">Скачать</a>
+							</div>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="white-card">
+							<div class="card-image">
+								<img src="img/cards/imac.png" alt="">
+							</div>
+							<div class="card-content">
+								<h5 class="ros-h3">Сайт управляющией <br>компании</h5>
+								<p class="ros-body-1">В истории науки встречались ситуации, когда движение небесных тел не подчинялось законам</p>
+							</div>
+							<div class="card-footer">
+								<a href="#" class="btn">Подробнее</a>
 							</div>
 						</div>
 					</div>
@@ -113,71 +101,63 @@
 		</div>
 		<div class="section white-section">
 			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<h2 class="d-block d-md-none margin-bottom-medium">О Компании</h2>
-						<div class="about-company-block">
-							<div class="block-image">
-								<div class="bordered-image add-tilt">
-									<img src="img/common/company.jpg" alt="">
-								</div>
-							</div>
-							<div class="block-content ros-typography">
-								<h2 class="d-none d-md-block">О Компании</h2>
-								<p>В истории науки встречались ситуации, когда движение небесных тел не подчинялось законам небесной механики; как правило, это явление находило объяснение в существовании неизвестного материального тела. Именно так были открыты планета Нептун и звезда Сириус B.</p>
-								<div class="d-none d-sm-block">
-									<p>В 1922 году астрономы Джеймс Джинс и Якобус Каптейн исследовали движение звёзд в нашей Галактике и пришли к выводу, что бо́льшая часть вещества в галактике невидима; в этих работах, вероятно, впервые появился термин «тёмная материя» . Ян Оорт использовал тот же термин в статье 1932 года.</p>
-								</div>
-							</div>
+				<h2 class="d-block d-md-none margin-bottom-medium">О Компании</h2>
+				<div class="about-block">
+					<div class="block-image">
+						<div class="bordered-image add-tilt">
+							<img src="img/common/company.jpg" alt="">
+						</div>
+					</div>
+					<div class="block-content ros-typography">
+						<h2 class="d-none d-md-block">О Компании</h2>
+						<p>В истории науки встречались ситуации, когда движение небесных тел не подчинялось законам небесной механики; как правило, это явление находило объяснение в существовании неизвестного материального тела. Именно так были открыты планета Нептун и звезда Сириус B.</p>
+						<div class="d-none d-sm-block">
+							<p>В 1922 году астрономы Джеймс Джинс и Якобус Каптейн исследовали движение звёзд в нашей Галактике и пришли к выводу, что бо́льшая часть вещества в галактике невидима; в этих работах, вероятно, впервые появился термин «тёмная материя» . Ян Оорт использовал тот же термин в статье 1932 года.</p>
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-12">
-						<div class="stats-slider">
-							<div class="slide">
-								<div class="stats-card">
-									<div class="stats-bg">
-										<img src="img/stats/clock.png" alt="">
-									</div>
-									<div class="card-content">
-										<div class="stats-value"><span class="odometer" id="odometer-year" data-val="8">3</span> лет</div>
-										<p class="ros-body-1 margin-no">успешной работы коммании в сфере ЖКХ</p>
-									</div>
-								</div>
+				<div class="stats-slider">
+					<div class="slide">
+						<div class="stats-card">
+							<div class="stats-bg">
+								<img src="img/stats/clock.png" alt="">
 							</div>
-							<div class="slide">
-								<div class="stats-card">
-									<div class="stats-bg">
-										<img src="img/stats/person.png" alt="">
-									</div>
-									<div class="card-content">
-										<div class="stats-value"><span class="odometer" id="odometer-users" data-val="15000"> 10000</span></div>
-										<p class="ros-body-1 margin-no">жильцов используют нашу систему</p>
-									</div>
-								</div>
+							<div class="card-content">
+								<div class="stats-value"><span class="odometer" id="odometer-year" data-val="8">3</span> лет</div>
+								<p class="ros-body-1 margin-no">успешной работы коммании в сфере ЖКХ</p>
 							</div>
-							<div class="slide">
-								<div class="stats-card">
-									<div class="stats-bg">
-										<img src="img/stats/bulb.png" alt="">
-									</div>
-									<div class="card-content">
-										<div class="stats-value">более <span class="odometer" id="odometer-companies" data-val="30">23</span></div>
-										<p class="ros-body-1 margin-no">компаний уже внедрили <br class="d-none d-md-inline">«Паук»</p>
-									</div>
-								</div>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="stats-card">
+							<div class="stats-bg">
+								<img src="img/stats/person.png" alt="">
 							</div>
-							<div class="slide">
-								<div class="stats-card">
-									<div class="stats-bg">
-										<img src="img/stats/envelope.png" alt="">
-									</div>
-									<div class="card-content">
-										<div class="stats-value"><span class="odometer" id="odometer-meters" data-val="800000">600000</span> м<sup>2</sup></div>
-										<p class="ros-body-1 margin-no">обслуживают с помощью наших продуктов</p>
-									</div>
-								</div>
+							<div class="card-content">
+								<div class="stats-value"><span class="odometer" id="odometer-users" data-val="15000"> 10000</span></div>
+								<p class="ros-body-1 margin-no">жильцов используют нашу систему</p>
+							</div>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="stats-card">
+							<div class="stats-bg">
+								<img src="img/stats/bulb.png" alt="">
+							</div>
+							<div class="card-content">
+								<div class="stats-value">более <span class="odometer" id="odometer-companies" data-val="30">23</span></div>
+								<p class="ros-body-1 margin-no">компаний уже внедрили <br class="d-none d-md-inline">«Паук»</p>
+							</div>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="stats-card">
+							<div class="stats-bg">
+								<img src="img/stats/envelope.png" alt="">
+							</div>
+							<div class="card-content">
+								<div class="stats-value"><span class="odometer" id="odometer-meters" data-val="800000">600000</span> м<sup>2</sup></div>
+								<p class="ros-body-1 margin-no">обслуживают с помощью наших продуктов</p>
 							</div>
 						</div>
 					</div>
@@ -253,7 +233,7 @@
 						</div>
 					</div>
 					<div class="tfr-button">
-						<button class="btn btn-accent" data-toggle="modal" data-target="#orderCall">Заказать звонок</button>
+						<button class="btn btn-accent" data-toggle="modal" data-target="#modal-request">Заказать звонок</button>
 					</div>
 				</div>
 			</div>

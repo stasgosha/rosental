@@ -186,6 +186,30 @@ $(document).ready(function(){
 		]
 	});
 
+	$('.clients-slider').slick({
+		infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		dots: false,
+		arrows: false,
+		responsive: [
+			{
+				breakpoint: 992,
+				settings: {
+					slidesToShow: 2,
+					dots: true
+				}
+			},
+			{
+				breakpoint: 576,
+				settings: {
+					slidesToShow: 1,
+					dots: true
+				}
+			}
+		]
+	});
+
 	// Odometer
 	window.odometerOptions = {
 		auto: false,

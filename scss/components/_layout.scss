@@ -113,3 +113,112 @@ $gutter: 15px;
 		@include col-generator('.col-xl');
 	}
 }
+
+.section{
+	&.default-top-padding{
+		padding-top: 80px;
+	}
+
+	&.default-bottom-padding{
+		padding-bottom: 80px;
+	}
+
+	&.default-paddings{
+		padding: 80px 0;
+	}
+}
+
+.links-row{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: calc(100% + 18px);
+	margin-left: -9px;
+	margin-right: -9px;
+
+	.item{
+		padding: 0 9px;
+
+		&.wide{
+			width: 100%;
+			max-width: 280px;
+		}
+
+		.btn{
+			width: 100%;
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		margin-bottom: -15px;
+		flex-wrap: wrap;
+
+		.item{
+			margin-bottom: 15px;
+
+			&.wide{
+				max-width: 320px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 767px){
+	.scrollable-container{
+		// border: 1px solid #e5e8ee;
+		// padding: 10px;
+
+		// &:before{
+		// 	content: '← листайте влево и вправо →';
+		// 	text-align: center;
+		// 	font-size: 13px;
+		// 	color: #999;
+		// 	margin-bottom: 10px;
+		// 	display: block;
+		// }
+
+		.scrollable-container-inner{
+			width: 100%;
+			overflow: auto;
+		}
+	}
+}
+
+.modal{
+	.modal-content{
+		.modal-body{
+			padding: 30px 35px 50px;
+		}
+	}
+
+	.modal-dialog{
+		margin-top: 60px;
+
+		@media screen and (max-width: 575px){
+			width: calc(100% - 30px);
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+
+	.modal-close{
+		position: absolute;
+		right: -22px;
+		top: -22px;
+		z-index: 5;
+		box-shadow: $shadow;
+		border-radius: 50%;
+		cursor: pointer;
+
+		i{
+			display: block;
+			cursor: pointer;
+		}
+	}
+
+	&.narrow{
+		.modal-dialog{
+			max-width: 340px;
+		}
+	}
+}

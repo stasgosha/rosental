@@ -12,7 +12,6 @@
 		<div class="inner-page-wrapper page-404">
 			<div class="section page-404-section">
 				<div class="parallax-layers" id="parallax-viewport" data-friction-x="0.05" data-friction-y="0.05" data-scalar-y="12">
-					<!-- TODO: change images -->
 					<div class="parallax-layer layer-1" data-depth="0.3">
 						<img src="img/order-demo/figure-1.png" alt="">
 					</div>

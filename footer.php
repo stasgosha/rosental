@@ -6,9 +6,10 @@
 						<div class="col-sm-6 col-lg-3 margin-bottom-big lg-margin-bottom-no">
 							<h4 class="ros-h4 color-white">Продукты и услуги</h4>
 							<ul class="footer-nav">
-								<li><a href="#">Электронный диспетчер</a></li>
-								<li><a href="#">Мобильное приложение</a></li>
-								<li><a href="#">Сайт для УК</a></li>
+								<li><a href="dispatcher.php">Электронный диспетчер</a></li>
+								<li><a href="mobile-app.php">Мобильное приложение</a></li>
+								<li><a href="site.php">Сайт для УК</a></li>
+								<li><a href="site-2.php">Сайт для УК - 2</a></li>
 							</ul>
 						</div>
 						<div class="col-sm-6 col-lg-3 margin-bottom-big lg-margin-bottom-no">
@@ -107,19 +108,19 @@
 			<ul class="panel-nav">
 				<li><a href="about.php">ГК «Розенталь Групп»</a></li>
 				<li>
-					<a href="#">Продукты и услуги для УК</a>
+					<a href="products.php">Продукты и услуги для УК</a>
 					<ul class="submenu">
-						<li><a href="#">Электронный диспетчер</a></li>
-						<li><a href="#">Мобильное приложение</a></li>
-						<li><a href="#">Сайт для УК</a></li>
+						<li><a href="dispatcher.php">Электронный диспетчер</a></li>
+						<li><a href="mobile-app.php">Мобильное приложение</a></li>
+						<li><a href="site.php">Сайт для УК</a></li>
+						<li><a href="site-2.php">Сайт для УК - 2</a></li>
 					</ul>
 				</li>
 				<li>
-					<a href="#">Техническая поддержка</a>
+					<a href="support.php">Техническая поддержка</a>
 					<ul class="submenu">
 						<li><a href="reviews.php">Отзывы</a></li>
 						<li><a href="documents.php">Документы</a></li>
-						<li><a href="#">Сайт для УК</a></li>
 					</ul>
 				</li>
 				<li><a href="faq.php">Вопросы и ответы</a></li>
@@ -128,11 +129,43 @@
 			</ul>
 		</div>
 	</nav>
+	<div class="modal fade narrow" tabindex="-1" role="dialog" id="modal-request">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="modal-close" data-dismiss="modal" aria-label="Close">
+						<i class="icon icon-close"></i>
+					</div>
+					<div class="ros-h3 text-center">Заявка</div>
+					<form action="#" class="form">
+						<div class="request-form">
+							<div class="form-row">
+								<input type="text" class="input-field" placeholder="Ваше имя">
+							</div>
+							<div class="form-row">
+								<input type="tel" class="input-field" placeholder="Телефон">
+							</div>
+							<div class="form-row">
+								<input type="email" class="input-field" placeholder="E-mail">
+							</div>
+							<div class="form-row">
+								<textarea class="textarea" placeholder="Комментарий"></textarea>
+							</div>
+						</div>
+						<div class="flex-center margin-top-small">
+							<button class="btn fullwidth">Отправить</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.4.1/jquery-migrate.min.js"></script>
 	<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
 	<script src="js/odometer.min.js"></script>
 	<script src="js/tilt.min.js"></script>
 	<script src="js/bigSlide.min.js"></script>
