@@ -20,14 +20,7 @@
 	&[href$=".docx"]{
 		&:before{
 			display: block;
-			background: url(../img/icons/doc.png) no-repeat center center;
-		}
-	}
-
-	&[href$=".pdf"]{
-		&:before{
-			display: block;
-			background: url(../img/icons/pdf.png) no-repeat center center;
+			background: url(../img/icons/icons-sprite.png) no-repeat 0 -82px;
 		}
 	}
 
@@ -35,7 +28,21 @@
 	&[href$=".jpeg"]{
 		&:before{
 			display: block;
-			background: url(../img/icons/jpg.png) no-repeat center center;
+			background: url(../img/icons/icons-sprite.png) no-repeat -57px -82px;
+		}
+	}
+
+	&[href$=".pdf"]{
+		&:before{
+			display: block;
+			background: url(../img/icons/icons-sprite.png) no-repeat -114px -82px;
+		}
+	}
+
+	&[href$=".txt"]{
+		&:before{
+			display: block;
+			background: url(../img/icons/icons-sprite.png) no-repeat -171px -82px;
 		}
 	}
 
@@ -43,14 +50,7 @@
 	&[href$=".xlsx"]{
 		&:before{
 			display: block;
-			background: url(../img/icons/xls.png) no-repeat center center;
-		}
-	}
-
-	&[href$=".txt"]{
-		&:before{
-			display: block;
-			background: url(../img/icons/txt.png) no-repeat center center;
+			background: url(../img/icons/icons-sprite.png) no-repeat -228px -82px;
 		}
 	}
 }

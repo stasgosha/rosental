@@ -17,7 +17,7 @@
 			opacity: 1;
 			width: 18px;
 			height: 32px;
-			background: url(../img/icons/slider-arrows.png) no-repeat;
+			background: url(../img/icons/icons-sprite.png) no-repeat;
 			transition: all $t;
 		}
 
@@ -35,13 +35,13 @@
 
 		&.slick-prev{
 			&:before{
-				background-position: left center;
+				background-position: -155px -147px;
 			}
 		}
 
 		&.slick-next{
 			&:before{
-				background-position: right center;
+				background-position: -173px -147px;
 			}
 		}
 
@@ -62,7 +62,18 @@
 			&:before{
 				width: 11px;
 				height: 20px;
-				background: url(../img/icons/slider-arrows-small.png) no-repeat;
+			}
+
+			&.slick-prev{
+				&:before{
+					background-position: -191px -147px;
+				}
+			}
+
+			&.slick-next{
+				&:before{
+					background-position: -202px -147px;
+				}
 			}
 		}
 	}
