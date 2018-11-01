@@ -25,7 +25,7 @@
 							<div class="offer-image">
 								<img src="img/cards/imac.png" alt="">
 							</div>
-							<a href="#" class="btn">Демо версия</button>
+							<a href="#" class="btn">Демо версия</a>
 						</div>
 					</div>
 				</div>

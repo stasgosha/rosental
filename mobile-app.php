@@ -25,7 +25,7 @@
 							<div class="offer-image">
 								<img src="img/cards/mobile-phones.png" alt="">
 							</div>
-							<a href="#" class="btn" targer="_blank">Скачать</button>
+							<a href="#" class="btn" targer="_blank">Скачать</a>
 						</div>
 					</div>
 				</div>
