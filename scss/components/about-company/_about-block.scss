@@ -4,15 +4,15 @@
 	margin-bottom: 55px;
 
 	.block-image{
-		width: 40.6%;
 		flex: none;
-		min-width: 410px;
+		width: 410px;
 	}
 
 	.block-content{
 		flex: auto;
 		padding-left: 45px;
 		padding-right: 20px;
+		width: calc(100% - 410px);
 	}
 
 	@media screen and (max-width: 991px){
@@ -32,6 +32,7 @@
 			padding-left: 0;
 			padding-right: 0;
 			padding-top: 30px;
+			width: 100%;
 		}
 	}
 }

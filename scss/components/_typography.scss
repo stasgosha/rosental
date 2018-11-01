@@ -75,6 +75,11 @@
 		align-items: center;
 		margin-bottom: 44px;
 
+		span{
+			display: block;
+			width: calc(100% - 60px);
+		}
+
 		&:before{
 			content: counter(digits);
 			display: block;
@@ -135,6 +140,11 @@
 		display: flex;
 		align-items: center;
 		margin-bottom: 44px;
+
+		span{
+			display: block;
+			width: calc(100% - 55px);
+		}
 
 		&:before{
 			content: '';

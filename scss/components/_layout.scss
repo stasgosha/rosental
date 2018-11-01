@@ -19,11 +19,13 @@ body{
 a, button{
 	text-decoration: none;
 	transition: all $t;
-	outline: none;
+	outline: none !important;
+	border: none;
 }
 
 a img{
-	outline: none;
+	outline: none !important;
+	border: none !important;
 }
 
 .wrapper{

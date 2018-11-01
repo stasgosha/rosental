@@ -37,6 +37,10 @@ $border-color: #e5e8ee;
 			justify-content: center;
 			border-right: 1px solid $border-color;
 
+			p{
+				width: 100%;
+			}
+
 			&.big-caption{
 				position: relative;
 				color: $text-dark;
