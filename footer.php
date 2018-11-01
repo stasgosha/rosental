@@ -18,6 +18,7 @@
 								<li><a href="about.php">О Компании</a></li>
 								<li><a href="documents.php">Документы</a></li>
 								<li><a href="reviews.php">Отзывы</a></li>
+								<li><a href="404.php">Страница 404</a></li>
 							</ul>
 						</div>
 						<div class="col-sm-6 col-lg-3 margin-bottom-big sm-margin-bottom-no">
@@ -121,6 +122,7 @@
 					<ul class="submenu">
 						<li><a href="reviews.php">Отзывы</a></li>
 						<li><a href="documents.php">Документы</a></li>
+						<li><a href="404.php">Страница 404</a></li>
 					</ul>
 				</li>
 				<li><a href="faq.php">Вопросы и ответы</a></li>

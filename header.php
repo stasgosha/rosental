@@ -80,6 +80,7 @@
 								<ul class="submenu">
 									<li><a href="reviews.php">Отзывы</a></li>
 									<li><a href="documents.php">Документы</a></li>
+									<li><a href="404.php">Страница 404</a></li>
 								</ul>
 							</li>
 							<li><a href="faq.php">Вопросы и ответы</a></li>
